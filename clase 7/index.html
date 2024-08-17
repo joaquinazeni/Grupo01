@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios.html</title>
+</head>
+<body>
+    
+        
+    
+
+<fieldset>
+    <legend>Datos de la persona:</legend>
+    <h1>formularios</h1>
+
+    <form >
+
+<label>Nombre:</label>
+        <input placeholder="Escribe tu nombre"required="true" type="text" id="nombre" name="nombre">
+        <br>
+        <label>Apellido:</label>
+        
+        <input placeholder="Escribe tu apellido"required="true" type="text" id="apellido"/>
+        <br>
+        <label>Password:</label>
+<input placeholder="Escribre una password" type="password" id="password" name="password" required="true"/><br/>
+     
+      <label>Email:</label>
+        
+      <input placeholder="Escribe tu email"required="true" type="text" id="email"/>
+        <br>
+<label>Ocupación</label></br>
+<input type="radio" id="estudiante" name="ocupacion" value="estudiante"/>
+<label>Estudiante</label><br/>
+<input type="radio" id="docente" name="ocupacion" value="docente"/>
+<label>Docente</label><br/>
+
+<label>Géneros de música favoritos</label>
+<input type="checkbox" id="clasica" name="musica" value="clasica" />
+<label>Clásica</label>
+
+<input type="checkbox" id="jazz" name="musica" value="jazz" />
+<label>Jazz</label>
+<br>
+
+<label>Marca de auto favorita</label><br/>
+<select id="autos" name="autos">
+     <option value="audi">Audi</option>
+     <option value="nissan">nissan</option>
+     <select id="autos" name="autos" multiple="true" 
+     
+>
+<br/>
+     <label>Comentarios</label><br/>
+<textarea id="comentario" name="comentario" rows="2" cols="30"></textarea>
+<br/>
+
+<input type="submit" value="Enviar"/>
+
+
+<input type="reset" value="Restablecer valores">
+</form>
+</fieldset>
+
+
+
+        
+
+
+
+
+</body>
+</html>
