@@ -1,0 +1,51 @@
+h1{
+    color:blue;
+      text-align:center
+      ;font-size:100px;
+  }
+  #titulo{
+    color: crimson;
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+}
+.grande{
+    font-size: 50px;
+}
+*{
+    background-color: gold;
+
+}
+p.centrar{
+    text-align: center;
+}
+.rojo{
+    border: ridge firebrick;
+    border-width: 10px 5px 3px 2px;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+
+    
+.rosa{
+    border:  dashed hotpink;
+    border-width: thick;
+
+}
+
+
+
+.amarillo{
+     border:  double gold;
+     border-width: medium
+}
+
+
+
+.azul{
+     border:  dotted turquoise;
+     border-width: thin
+}
