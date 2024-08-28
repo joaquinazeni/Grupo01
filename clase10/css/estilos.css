@@ -19,10 +19,10 @@ background-color: crimson;
     background-color: deeppink;
 }
 .violeta {
-color:rbg(131,56,236)
+    background-color:rgb(131,56,236)
 }
 .transparencia{
-    color:rbga(131,56,236,.5)
+    background-color:rgba(131,56,236,.5)
 }
 .hexatransparencia{
 background-color:#0091ad88 ;
@@ -31,7 +31,7 @@ background-color:#0091ad88 ;
     background-color: hsl(195,100%,50%);
 }
 .hsltransparencia{
-   background-color:hsla (195,100%,50%,0.5);
+   background-color:hsla(195,100%,50%,0.5);
 }
 *{
     background-color:  dimgray;
