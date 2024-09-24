@@ -1,0 +1,110 @@
+ul{
+    display: inline;
+    display: block;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #0f7c26;
+    overflow: hidden;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+   }
+   li{
+    float:left;
+}
+li a{
+    display: inline;
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color: #39cc0c;
+    text-decoration: underline;
+    text-decoration-thickness: 3px; 
+}
+
+.img1{
+    width:110px;
+}
+body{
+    background-color:white ;
+}
+.primer{
+    display: flex;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px #727272;
+    color: rgb(0, 0, 0);
+}
+table  {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color:aliceblue;
+}
+th td  {
+    border:5px solid #cf9c3c;
+    padding:10px;
+
+}
+th{
+    background-color:rgb(187, 147, 87);
+
+}
+
+.contenedor{
+    text-align: center;
+}
+
+table, td, th {
+    border: 3px solid black; 
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:hover{
+    background-color:rgb(56, 170, 62);
+}
+.img3{
+    width: 500px;
+    height: auto;
+}
+.text{
+    text-align: center;
+}
+.parrafos{
+    text-align: center;
+
+}
+
+ol{
+    list-style:none;
+    counter-reset: contador;
+
+}
+ol li{
+    counter-increment: contador;
+}
+
+ol li::before{
+    content: 'Hitos ' counter(contador) ') ';
+    color: #15801e;
+
+}
+
+h3{
+   text-align: center;
+}
+
+
